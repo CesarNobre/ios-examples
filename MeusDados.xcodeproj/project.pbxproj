@@ -15,6 +15,7 @@
 		AC26499A1C86507F00F646F7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC2649991C86507F00F646F7 /* Assets.xcassets */; };
 		AC26499D1C86507F00F646F7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC26499B1C86507F00F646F7 /* LaunchScreen.storyboard */; };
 		AC2649A81C86507F00F646F7 /* MeusDadosTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AC2649A71C86507F00F646F7 /* MeusDadosTests.m */; };
+		AC2649B31C8658C800F646F7 /* Meus-Dados.plist in Resources */ = {isa = PBXBuildFile; fileRef = AC2649B21C8658C800F646F7 /* Meus-Dados.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +43,7 @@
 		AC2649A31C86507F00F646F7 /* MeusDadosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MeusDadosTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC2649A71C86507F00F646F7 /* MeusDadosTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MeusDadosTests.m; sourceTree = "<group>"; };
 		AC2649A91C86507F00F646F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC2649B21C8658C800F646F7 /* Meus-Dados.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Meus-Dados.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 			isa = PBXGroup;
 			children = (
 				AC26498B1C86507F00F646F7 /* main.m */,
+				AC2649B21C8658C800F646F7 /* Meus-Dados.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -194,6 +197,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AC2649B31C8658C800F646F7 /* Meus-Dados.plist in Resources */,
 				AC26499D1C86507F00F646F7 /* LaunchScreen.storyboard in Resources */,
 				AC26499A1C86507F00F646F7 /* Assets.xcassets in Resources */,
 				AC2649951C86507F00F646F7 /* Main.storyboard in Resources */,
