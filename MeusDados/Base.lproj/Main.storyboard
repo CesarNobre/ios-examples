@@ -32,14 +32,37 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QFL-j0-yr9">
-                                <rect key="frame" x="92" y="167" width="38" height="30"/>
+                                <rect key="frame" x="92" y="169" width="38" height="30"/>
                                 <animations/>
                                 <state key="normal" title="Exibir"/>
+                                <connections>
+                                    <action selector="Exibir:" destination="BYZ-38-t0r" eventType="touchUpInside" id="mnE-Zj-ZsX"/>
+                                </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qvU-CW-p1G">
+                                <rect key="frame" x="152" y="169" width="47" height="30"/>
+                                <animations/>
+                                <state key="normal" title="Limpar"/>
+                                <connections>
+                                    <action selector="Limpar:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Ps1-HL-ad2"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jvh-Ty-arw">
+                                <rect key="frame" x="92" y="140" width="42" height="21"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
+                    <connections>
+                        <outlet property="primeiroLabel" destination="9HM-8F-GRa" id="8n2-7X-IMM"/>
+                        <outlet property="segundoLabel" destination="MJE-y5-SjM" id="QCa-nK-cyu"/>
+                        <outlet property="terceiroLabel" destination="jvh-Ty-arw" id="EsP-Pw-0zL"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
